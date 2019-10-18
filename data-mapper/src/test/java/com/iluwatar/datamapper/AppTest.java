@@ -27,8 +27,9 @@ import org.junit.jupiter.api.Test;
 /**
  * Tests that Data-Mapper example runs without errors.
  */
-public final class AppTest {
+public class AppTest {
 
+  @SuppressWarnings("squid:S2699")
   @Test
   public void test() {
     final String[] args = {};

@@ -48,6 +48,7 @@ public class App {
    * Main app method
    * @param args command line args
    */
+  @SuppressWarnings("squid:S1192")
   public static void main(String[] args) {
     VirtualMachine vm = new VirtualMachine();
 
@@ -72,8 +73,7 @@ public class App {
   }
 
   private static void interpretInstruction(String instruction, VirtualMachine vm) {
-    InstructionConverterUtil converter = new InstructionConverterUtil();
-    vm.execute(converter.convertToByteCode(instruction));
+    vm.execute(InstructionConverterUtil.convertToByteCode(instruction));
     LOGGER.info(instruction + String.format("%" + (12 - instruction.length()) + "s", "" ) + vm.getStack());
   }
 }

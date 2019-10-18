@@ -24,13 +24,12 @@ package com.iluwatar.acyclicvisitor;
 
 import org.junit.jupiter.api.Test;
 
-import com.iluwatar.acyclicvisitor.App;
-
 /**
  * Tests that the Acyclic Visitor example runs without errors.
  */
 public class AppTest {
-  
+
+  @SuppressWarnings("squid:S2699")
   @Test
   public void test() {
     String[] args = {};

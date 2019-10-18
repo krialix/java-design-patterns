@@ -26,9 +26,10 @@ import org.junit.jupiter.api.Test;
  * Created by Srdjan on 03-May-17.
  */
 public class AppTest {
-  @Test
-  public void main() throws Exception {
 
+  @SuppressWarnings("squid:S2699")
+  @Test
+  public void main() {
     String[] args = {};
     App.main(args);
   }

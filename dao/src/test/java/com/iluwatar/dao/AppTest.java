@@ -28,6 +28,8 @@ import org.junit.jupiter.api.Test;
  * Tests that DAO example runs without errors.
  */
 public class AppTest {
+
+  @SuppressWarnings("squid:S2699")
   @Test
   public void test() throws Exception {
     String[] args = {};

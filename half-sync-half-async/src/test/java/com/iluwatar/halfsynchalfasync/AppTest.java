@@ -24,8 +24,6 @@ package com.iluwatar.halfsynchalfasync;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.concurrent.ExecutionException;
-
 /**
  * 
  * Application test
@@ -33,6 +31,7 @@ import java.util.concurrent.ExecutionException;
  */
 public class AppTest {
 
+  @SuppressWarnings("squid:S2699")
   @Test
   public void test() {
     App.main(null);

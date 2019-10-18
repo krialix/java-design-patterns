@@ -33,6 +33,7 @@ class ApplicationTest {
   /**
    * Test run
    */
+  @SuppressWarnings("squid:S2699")
   @Test
   void main() {
     Application.main(new String[] {});
