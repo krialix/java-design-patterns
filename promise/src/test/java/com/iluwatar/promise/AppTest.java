@@ -32,6 +32,7 @@ import java.util.concurrent.ExecutionException;
  */
 public class AppTest {
 
+  @SuppressWarnings("squid:S2699")
   @Test
   public void testApp() throws InterruptedException, ExecutionException {
     App.main(null);

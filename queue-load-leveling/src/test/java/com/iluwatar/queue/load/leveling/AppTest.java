@@ -24,14 +24,14 @@ package com.iluwatar.queue.load.leveling;
 
 import org.junit.jupiter.api.Test;
 
-import java.io.IOException;
-
 /**
  * Application Test
  */
 public class AppTest {
+
+  @SuppressWarnings("squid:S2699")
   @Test
-  public void test() throws IOException {
+  public void test() {
     String[] args = {};
     App.main(args);
   }

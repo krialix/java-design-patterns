@@ -24,12 +24,12 @@ package com.iluwatar.unitofwork;
 
 import org.junit.Test;
 
-import java.io.IOException;
-
 /**
  * AppTest
  */
 public class AppTest {
+
+  @SuppressWarnings("squid:S2699")
   @Test
   public void test() {
     String[] args = {};

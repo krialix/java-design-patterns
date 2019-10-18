@@ -29,8 +29,9 @@ import java.io.FileNotFoundException;
 /**
  * Tests that Module example runs without errors.
  */
-public final class AppTest {
+public class AppTest {
 
+  @SuppressWarnings("squid:S2699")
   @Test
   public void test() throws FileNotFoundException {
     final String[] args = {};

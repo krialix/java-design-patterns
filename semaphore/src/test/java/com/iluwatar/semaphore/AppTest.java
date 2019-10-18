@@ -24,12 +24,12 @@ package com.iluwatar.semaphore;
 
 import org.junit.jupiter.api.Test;
 
-import java.io.IOException;
-
 /**
  * Application Test Entrypoint
  */
 public class AppTest {
+
+  @SuppressWarnings("squid:S2699")
   @Test
   public void test() {
     String[] args = {};

@@ -24,12 +24,12 @@ package com.iluwatar.repository;
 
 import org.junit.jupiter.api.Test;
 
-import java.io.IOException;
-
 /**
  * Tests that Repository example runs without errors.
  */
 public class AppTest {
+
+  @SuppressWarnings("squid:S2699")
   @Test
   public void test() {
     String[] args = {};

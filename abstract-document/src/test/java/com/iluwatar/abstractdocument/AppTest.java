@@ -29,6 +29,7 @@ import org.junit.jupiter.api.Test;
  */
 public class AppTest {
 
+  @SuppressWarnings("squid:S2699")
   @Test
   public void shouldExecuteAppWithoutException() {
     App.main(null);

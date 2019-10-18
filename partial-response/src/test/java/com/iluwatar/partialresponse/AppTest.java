@@ -29,6 +29,7 @@ import org.junit.Test;
  */
 public class AppTest {
 
+  @SuppressWarnings("squid:S2699")
   @Test
   public void main() throws Exception {
     String[] args = {};

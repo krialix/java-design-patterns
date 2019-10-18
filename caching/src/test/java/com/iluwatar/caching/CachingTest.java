@@ -31,7 +31,8 @@ import org.junit.jupiter.api.Test;
  *
  */
 public class CachingTest {
-  App app;
+
+  private App app;
 
   /**
    * Setup of application test includes: initializing DB connection and cache size/capacity.
@@ -46,21 +47,25 @@ public class CachingTest {
     app = new App();
   }
 
+  @SuppressWarnings("squid:S2699")
   @Test
   public void testReadAndWriteThroughStrategy() {
     app.useReadAndWriteThroughStrategy();
   }
 
+  @SuppressWarnings("squid:S2699")
   @Test
   public void testReadThroughAndWriteAroundStrategy() {
     app.useReadThroughAndWriteAroundStrategy();
   }
 
+  @SuppressWarnings("squid:S2699")
   @Test
   public void testReadThroughAndWriteBehindStrategy() {
     app.useReadThroughAndWriteBehindStrategy();
   }
 
+  @SuppressWarnings("squid:S2699")
   @Test
   public void testCacheAsideStrategy() {
     app.useCacheAsideStategy();

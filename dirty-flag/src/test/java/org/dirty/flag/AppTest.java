@@ -22,8 +22,6 @@
  */
 package org.dirty.flag;
 
-import java.io.IOException;
-
 import org.junit.jupiter.api.Test;
 
 import com.iluwatar.dirtyflag.App;
@@ -32,8 +30,10 @@ import com.iluwatar.dirtyflag.App;
  * Tests that Dirty-Flag example runs without errors.
  */
 public class AppTest {
+
+  @SuppressWarnings("squid:S2699")
   @Test
-  public void test() throws IOException {
+  public void test() {
     String[] args = {};
     App.main(args);
   }
